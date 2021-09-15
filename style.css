@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+}
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+section {
+    background-image: url("poker-hand-1522811-1918x1440.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+h1 {
+    margin-top: 200px;
+    color: goldenrod;
+    font-size: 2.5em;
+}
+
+p{
+    font-size: 1.3em;
+    margin: 10px 0;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    color: #016f32;
+    width: 150px;
+    background-color: goldenrod;
+    padding: 5px 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin: 3px 0px;;
+}
